@@ -1,0 +1,17 @@
+[package]
+name = "rocket_roles_macros"
+version = "0.1.0"
+edition = "2021"
+description = "Procedural macros for rocket_roles"
+license = "MIT"
+repository = "https://github.com/tristanpoland/rocket-roles"
+keywords = ["rocket", "authentication", "authorization", "web", "permissions"]
+categories = ["web-programming"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["full", "extra-traits"] }
