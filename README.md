@@ -1,5 +1,9 @@
 # rocket_roles
 
+> **Warning**  
+> This library is in early development and the API may change significantly between versions.
+
+
 A flexible authentication and authorization system for the Rocket web framework in Rust.
 
 [![Crates.io](https://img.shields.io/crates/v/rocket_roles)](https://crates.io/crates/rocket_roles)
